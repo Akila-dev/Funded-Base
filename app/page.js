@@ -15,7 +15,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <Hero />
       <Challenges />
       <TradingPlatforms />
@@ -96,6 +96,6 @@ export default function Home() {
       </div>
 
       <JoinCommunityCTA />
-    </div>
+    </>
   );
 }

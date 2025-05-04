@@ -105,6 +105,61 @@ const testimonials = [
   images.testimonial13,
 ];
 
+const footer_links = {
+  usefulLinks: [
+    {
+      label: "Affiliate",
+      url: "#",
+    },
+    {
+      label: "FAQs",
+      url: "#",
+    },
+    {
+      label: "About Us",
+      url: "#",
+    },
+    {
+      label: "Blog",
+      url: "#",
+    },
+  ],
+
+  legal: [
+    {
+      label: "Terms & Conditions",
+      url: "#",
+    },
+    {
+      label: "Privacy Policy",
+      url: "#",
+    },
+    {
+      label: "AML Policy",
+      url: "#",
+    },
+  ],
+
+  socials: [
+    {
+      icon_url: icons.smalldiscord,
+      url: "#",
+    },
+    {
+      icon_url: icons.ig,
+      url: "#",
+    },
+    {
+      icon_url: icons.x,
+      url: "#",
+    },
+    {
+      icon_url: icons.youtube,
+      url: "#",
+    },
+  ],
+};
+
 export default {
   menu_links,
   def_links,
@@ -113,4 +168,5 @@ export default {
   why_choose_us,
   certifications,
   testimonials,
+  footer_links,
 };
