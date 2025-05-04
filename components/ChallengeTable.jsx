@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { icons } from "@/constants";
+import { CheckoutButton } from "@/components";
 
 const ChallengeTable = ({ activeVal, activeIndex }) => {
   const fees = [59, 109, 229, 349, 599, 1099];
@@ -169,14 +170,11 @@ const ChallengeTable = ({ activeVal, activeIndex }) => {
           <br />
         </div>
         <div className="lg:justify-center lg:items-center lg:flex ">
-          <Link
-            id="getFundedLink"
-            href="#"
-            target="_blank"
-            className="styledbutton h-[51px] w-full md:w-[224px] bg-[#E6E6E6] text-black font-mono px-6 py-[14px] rounded-[4px] border-[#00000050] border-[1.5px] shadow-[4px_4px_0px_#00000080] transition-all duration-300 hover:bg-white hover:shadow-[0_0_15px_white]"
-          >
-            Get Funded - ${fees[activeIndex]}
-          </Link>
+          <CheckoutButton
+            text={`Get Funded $${fees[activeIndex]}`}
+            amount={fees[activeIndex]}
+            className="styledbutton h-[51px] w-full md:w-[224px] bg-[#E6E6E6] text-black font-mono px-6 py-[14px] rounded-[4px] border-[#00000050] border-[1.5px] shadow-[4px_4px_0px_#00000080] transition-all duration-300 hover:bg-white hover:shadow-[0_0_15px_white] text-center"
+          />
         </div>
       </div>
     </>

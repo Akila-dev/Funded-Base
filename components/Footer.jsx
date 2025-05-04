@@ -43,13 +43,13 @@ const Footer = () => {
       className="px-6 sm:px-10 md:px-[108px] py-[5rem] border-t border-[#7A7A7B59]"
       style={{
         background:
-          "radial-gradient(54.37% 124.75% at 53.04% 84.37%, rgba(76, 111, 192, 0.56) 0%, rgba(4, 34, 94, 0.56) 41.43%, rgba(0, 0, 0, 0.56) 100%);",
+          "radial-gradient(54.37% 124.75% at 53.04% 84.37%, rgba(76, 111, 192, 0.56) 0%, rgba(4, 34, 94, 0.56) 41.43%, rgba(0, 0, 0, 0.56) 100%)",
       }}
     >
       <div className="flex flex-col lg:flex-row lg:justify-between gap-10">
         {/*  Logo */}
         <div className="flex-shrink-0">
-          <Logo className="w-[150px]" />
+          <Logo className="w-[150px] h-auto" />
         </div>
         {/* Useful Links + Legal */}
         <div className="flex flex-col sm:flex-row gap-10">
