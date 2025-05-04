@@ -160,6 +160,33 @@ const footer_links = {
   ],
 };
 
+const price_list = [
+  {
+    label: "$5,000",
+    val: 5000,
+  },
+  {
+    label: "$10,000",
+    val: 10000,
+  },
+  {
+    label: "$25,000",
+    val: 25000,
+  },
+  {
+    label: "$50,000",
+    val: 50000,
+  },
+  {
+    label: "$100,000",
+    val: 100000,
+  },
+  {
+    label: "$200,000🔥",
+    val: 200000,
+  },
+];
+
 export default {
   menu_links,
   def_links,
@@ -169,4 +196,5 @@ export default {
   certifications,
   testimonials,
   footer_links,
+  price_list,
 };
