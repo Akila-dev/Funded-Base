@@ -2,9 +2,9 @@ export default async function PaymentSuccess({ searchParams }) {
   const { amount } = await searchParams;
 
   return (
-    <main className="pt-[7rem] lg:pt-[9rem] pb-[2.5rem] lg:pb-[3rem]">
+    <main className="pt-[7rem] lg:pt-[9rem] pb-[2.5rem] lg:pb-[3rem] px-3">
       <div
-        className="relative z-10 pb-10 flex flex-col items-center justify-center gap-6 text-center px-4 rounded-2xl w-[90%] max-w-[900px] shadow-lg mx-auto border border-white/10"
+        className="relative z-10 pb-10 flex flex-col items-center justify-center gap-6 text-center px-4 rounded-2xl w-full max-w-[900px] shadow-lg mx-auto border border-white/10"
         style={{
           background:
             "radial-gradient(54.37% 124.75% at 53.04% 84.37%, rgba(76, 111, 192, 0.56) 0%, rgba(4, 34, 94, 0.56) 41.43%, rgba(0, 0, 0, 0.56) 100%)",
