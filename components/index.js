@@ -19,3 +19,4 @@ export { default as InputBox } from "./form/InputBox";
 // MISC
 export { default as VideoOrFallback } from "./misc/VideoOrFallback";
 export { default as CheckoutPage } from "./misc/CheckoutPage";
+export { default as Loading } from "./misc/Loading";

@@ -3,7 +3,7 @@
 import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
-import { CheckoutPage } from "@/components";
+import { CheckoutPage, Loading } from "@/components";
 import convertToSubcurrency from "@/lib/convertToSubcurrency";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
@@ -38,7 +38,7 @@ const Checkout = () => {
       </div>
 
       <div className="relative w-full lg:w-[862px] mx-auto my-[2.5rem] lg:my-[3rem] px-3">
-        <Suspense>
+        <Suspense fallback={<Loading />}>
           <Elements
             stripe={stripePromise}
             options={{
