@@ -32,16 +32,16 @@ const VideoOrFallback = ({
         });
 
       // Watchdog: try replaying and hiding fallback
-      setInterval(() => {
-        if (video.current.paused) {
-          video.current
-            .play()
-            .then(() => {
-              setIsFallback(false);
-            })
-            .catch(() => {});
-        }
-      }, 2000);
+      // setInterval(() => {
+      //   if (video.current.paused) {
+      //     video.current
+      //       .play()
+      //       .then(() => {
+      //         setIsFallback(false);
+      //       })
+      //       .catch(() => {});
+      //   }
+      // }, 2000);
     };
   }, []);
 

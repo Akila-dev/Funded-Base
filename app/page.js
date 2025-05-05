@@ -21,10 +21,10 @@ export default function Home() {
       <TradingPlatforms />
       <EvaluationProcess />
       <FlexiblePayouts />
-      {/* Why Fundedbits */}
+      {/* Why Fundedbase */}
       <div className="mt-[5.5rem] lg:mt-[11.26rem]">
         <h1 className="geist font-medium text-[14px] leading-[100%] max-w-[754px] text-center mb-3 mx-auto text-[#7A7A7B]">
-          Why FundedBits
+          Why FundedBase
         </h1>
         <h1 className="geist font-semibold text-[30px] lg:text-[40px] leading-[100%] px-2 mb-10 text-center mx-auto text-white">
           The Benefits You want are available here

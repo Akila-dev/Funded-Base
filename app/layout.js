@@ -2,7 +2,7 @@ import "./globals.css";
 import "./app.css";
 
 export const metadata = {
-  title: "Home - Fundedbits",
+  title: "Home - Fundedbase",
   // description: "Shop from our official merch store",
 };
 

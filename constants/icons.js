@@ -1,5 +1,6 @@
 import and from "@/assets/icons/and.png";
 import plus from "@/assets/icons/plus.png";
+import cancel from "@/assets/icons/cancel.png";
 import arrow from "@/assets/icons/arrow.png";
 import banktransfer from "@/assets/icons/banktransfer.png";
 import cryptowallet from "@/assets/icons/cryptowallet.png";
@@ -27,6 +28,7 @@ import xtvcxrp from "@/assets/icons/XTVCXRP.svg";
 export default {
   and,
   plus,
+  cancel,
   arrow,
   banktransfer,
   cryptowallet,

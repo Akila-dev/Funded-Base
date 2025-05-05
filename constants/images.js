@@ -1,4 +1,4 @@
-import fundedbits from "@/assets/images/FUNDEDBITS.png";
+import fundedbase from "@/assets/images/FUNDEDBITS.png";
 import matchtraderLogo from "@/assets/images/match-trader-logo.png";
 import tradingviewLogo from "@/assets/images/tradingviewlogo.png";
 import hero from "@/assets/images/homepgeimg.png";
@@ -38,9 +38,10 @@ import benefit3 from "@/assets/images/profit.png";
 import benefit4 from "@/assets/images/instantpayout.png";
 import benefit5 from "@/assets/images/zeroswapfee.png";
 import benefit6 from "@/assets/images/trade-anytime.png";
+import qr from "@/assets/images/qr.png";
 
 export default {
-  fundedbits,
+  fundedbase,
   matchtraderLogo,
   tradingviewLogo,
   hero,
@@ -77,4 +78,5 @@ export default {
   benefit4,
   benefit5,
   benefit6,
+  qr,
 };

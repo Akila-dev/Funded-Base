@@ -7,6 +7,7 @@ export { default as ChallengeTable } from "./ChallengeTable";
 export { default as Button } from "./buttons/Button";
 export { default as MenuButton } from "./buttons/MenuButton";
 export { default as CheckoutButton } from "./buttons/CheckoutButton";
+export { default as GetFundedButton } from "./buttons/GetFundedButton";
 
 // CARDS
 export { default as GetFundedCTA } from "./cards/GetFundedCTA";

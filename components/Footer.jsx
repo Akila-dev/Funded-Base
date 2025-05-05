@@ -49,7 +49,7 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row lg:justify-between gap-10">
         {/*  Logo */}
         <div className="flex-shrink-0">
-          <Logo className="w-[150px] h-auto" />
+          <Logo className="w-[150px] h-auto" lg />
         </div>
         {/* Useful Links + Legal */}
         <div className="flex flex-col sm:flex-row gap-10">
@@ -159,11 +159,11 @@ const Footer = () => {
             for educational purposes relating to trading and financial markets,
             it is in no way a specific investment recommendation, trading or
             investment opportunity or similar general recommendations regarding
-            trading of investment instruments. Fundedbits Limited only provides
+            trading of investment instruments. Fundedbase Limited only provides
             simulated trading services and educational tools for traders. The
             information contained in this site is not directed at residents of
             countries or jurisdictions where its distribution or use would be
-            contrary to local law or regulation. Fundedbits Limited does not act
+            contrary to local law or regulation. Fundedbase Limited does not act
             as a broker and does not accept any deposits.
           </h1>
         </div>
@@ -171,17 +171,22 @@ const Footer = () => {
 
       <div className="mt-10 lg:flex justify-between">
         <h1 className="text-[#7A7A7B] text-[12px] text-center">
-          Contact: <span className="underline">support@fundedbits.com</span>
+          Contact: <span className="underline">support@fundedbase.com</span>
         </h1>
         <br />
         <h1 className="text-[#7A7A7B] text-[12px] text-center">
-          �2025 fundedbits. All rights reserved
+          �2025 fundedbase. All rights reserved
         </h1>
       </div>
 
       {/* Bottom Logo */}
       <div className="mt-[5rem]">
-        <Image src={images.fundedbits} className="mx-auto" alt="" />
+        {/* <Image src={images.fundedbase} className="mx-auto" alt="" /> */}
+        <div className="relative w-full h-[13.5vw]">
+          <h1 className="text-white/20 text-[14vw] text-center absolute top-0 left-1/2 -translate-x-1/2">
+            FUNDEDBASE
+          </h1>
+        </div>
       </div>
     </footer>
   );

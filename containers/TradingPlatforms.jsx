@@ -19,7 +19,7 @@ const TradingPlatforms = () => {
       {/* Image Mobile */}
       <Image
         src={images.maketradingeasy}
-        alt="Fundedbits"
+        alt="Fundedbase"
         layout="responsive"
         width={"100%"}
         height={"auto"}

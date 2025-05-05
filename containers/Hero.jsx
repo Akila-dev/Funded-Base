@@ -34,7 +34,7 @@ const Hero = () => {
           of what you earn.
         </h2>
         {/* Buttons */}
-        <div className="md:flex gap-[10px] mt-4">
+        <div className="flex flex-wrap justify-center gap-[10px] mt-4">
           <Button
             text="Get Funded"
             href={data.def_links.get_funded}
@@ -68,7 +68,7 @@ const Hero = () => {
       {/* Trading View Widget */}
       <div className="tradingview-widget-container w-full h-[104px]">
         <iframe
-          src="https://www.tradingview-widget.com/embed-widget/tickers/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22Ethereum%22%7D%2C%7B%22description%22%3A%22XRP%22%2C%22proName%22%3A%22BITSTAMP%3AXRPUSD%22%7D%2C%7B%22description%22%3A%22DOGE%22%2C%22proName%22%3A%22BITSTAMP%3ADOGEUSD%22%7D%2C%7B%22description%22%3A%22XAU%22%2C%22proName%22%3A%22OANDA%3AXAUUSD%22%7D%2C%7B%22description%22%3A%22EUR%22%2C%22proName%22%3A%22OANDA%3AEURUSD%22%7D%2C%7B%22description%22%3A%22SPX%22%2C%22proName%22%3A%22KRAKEN%3ASPXUSD%22%7D%2C%7B%22description%22%3A%22DXY%22%2C%22proName%22%3A%22TVC%3ADXY%22%7D%5D%2C%22isTransparent%22%3Afalse%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A104%2C%22utm_source%22%3A%22fundedbits.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22tickers%22%2C%22page-uri%22%3A%22fundedbits.com%2F%22%7D"
+          src="https://www.tradingview-widget.com/embed-widget/tickers/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22Ethereum%22%7D%2C%7B%22description%22%3A%22XRP%22%2C%22proName%22%3A%22BITSTAMP%3AXRPUSD%22%7D%2C%7B%22description%22%3A%22DOGE%22%2C%22proName%22%3A%22BITSTAMP%3ADOGEUSD%22%7D%2C%7B%22description%22%3A%22XAU%22%2C%22proName%22%3A%22OANDA%3AXAUUSD%22%7D%2C%7B%22description%22%3A%22EUR%22%2C%22proName%22%3A%22OANDA%3AEURUSD%22%7D%2C%7B%22description%22%3A%22SPX%22%2C%22proName%22%3A%22KRAKEN%3ASPXUSD%22%7D%2C%7B%22description%22%3A%22DXY%22%2C%22proName%22%3A%22TVC%3ADXY%22%7D%5D%2C%22isTransparent%22%3Afalse%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A104%2C%22utm_source%22%3A%22fundedbase.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22tickers%22%2C%22page-uri%22%3A%22fundedbase.com%2F%22%7D"
           title="Tickers TradingView widget"
           lan="en"
           style={{
@@ -81,7 +81,7 @@ const Hero = () => {
         ></iframe>
         <div className="tradingview-widget-copyright">
           <Link
-            href="https://www.tradingview.com/?utm_source=fundedbits.com&utm_medium=widget_new&utm_campaign=tickers"
+            href="https://www.tradingview.com/?utm_source=fundedbase.com&utm_medium=widget_new&utm_campaign=tickers"
             rel="noopener nofollow"
             target="_blank"
           >

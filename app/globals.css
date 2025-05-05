@@ -36,6 +36,8 @@
   --font-weight-bold: 700;
   --default-font-family: var(--font-sans);
   --default-mono-font-family: var(--font-mono);
+
+  --breakpoint-xs: 320px;
 }
 
 @layer base {
