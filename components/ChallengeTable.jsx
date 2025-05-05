@@ -41,9 +41,9 @@ const ChallengeTable = () => {
     },
     {
       label: "Platform",
-      opt1: "Crypto Only",
-      opt2: "Crypto Only",
-      opt3: "Crypto Only",
+      opt1: "Binance",
+      opt2: "Binance",
+      opt3: "Binance",
     },
   ];
   return (
